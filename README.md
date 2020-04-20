@@ -71,8 +71,6 @@ Get feature code and insert to your IBM Cloud account: http://tlvfeaturecode.myb
 
 Create kubernetes service (Free cluster): https://cloud.ibm.com/kubernetes/catalog/create
 
-Create Watson Tone Analyzer service: https://cloud.ibm.com/catalog/services/tone-analyzer
-
 ## Lab
 
 1) Go to: https://cloud.ibm.com/kubernetes/clusters
