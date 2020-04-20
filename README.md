@@ -38,7 +38,7 @@ git clone https://github.com/tal2k4xj/guestbook-microservices.git
 ```
 
 ```
-docker build ./guestbook-microservices-master/v1/guesbook/ -t guestbook-v1
+docker build ./guestbook-microservices/v1/guestbook/ -t guestbook-v1
 ```
 
 ```
@@ -54,7 +54,7 @@ docker container ls
 ```
 
 ```
-docker build ./guestbook-microservices-master/v1/guesbook/ -t guestbook-v2
+docker build ./guestbook-microservices/v1/guestbook/ -t guestbook-v2
 ```
 
 ```
