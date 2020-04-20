@@ -79,4 +79,4 @@ Create kubernetes service (Free cluster): https://cloud.ibm.com/kubernetes/catal
 4) Select "Web terminal" and choose to install it
 5) Wait a minute and do steps 3 and 4 again
 6) Now you are ready to work with kubernetes using online terminal and kubectl
-7) Go to this link to start the hands-on workshop: https://github.com/IBM/kube101/tree/master/workshop/Lab1
+7) Go to this link to start the hands-on workshop: https://github.com/IBM/kube101/tree/master/workshop/Lab1#1-deploy-your-application
