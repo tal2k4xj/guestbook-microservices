@@ -54,7 +54,7 @@ docker container ls
 ```
 
 ```
-docker build ./guestbook-microservices/v1/guestbook/ -t guestbook-v2
+docker build ./guestbook-microservices/v2/guestbook/ -t guestbook-v2
 ```
 
 ```
