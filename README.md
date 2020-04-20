@@ -58,7 +58,7 @@ docker build ./guestbook-microservices/v2/guestbook/ -t guestbook-v2
 ```
 
 ```
-docker run -d -p 3001:3000 guestbook-v1
+docker run -d -p 3001:3000 guestbook-v2
 ```
 
 # Deploy with Kubernetes
