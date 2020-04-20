@@ -23,15 +23,15 @@ information.
  * The guestbook applications uses Kubernetes service type `LoadBalancer` to expose the service onto an external IP address. If you are using `Minikube`, keep in mind that no real external load balancer is created. You
  can still access the service with the node port that is assigned to load balancer on `Minikube`.
 
-## Deploy with Docker
+# Deploy with Docker
 
-# Prerequisite
+## Prerequisite
 
 Install Docker desktop : https://docs.docker.com/install/
 
 Or follow this guide to use Virtualbox: https://itsfoss.com/install-linux-in-virtualbox/
 
-# Lab
+## Lab
 
 ```
 git clone https://github.com/tal2k4xj/guestbook-microservices.git
@@ -61,9 +61,9 @@ docker build ./guestbook-microservices-master/v1/guesbook/ -t guestbook-v2
 docker run -d -p 3001:3000 guestbook-v1
 ```
 
-## Deploy with Kubernetes
+# Deploy with Kubernetes
 
-# Prerequisite
+## Prerequisite
 
 Register to IBM Cloud: https://ibm.biz/BdqZVG
 
@@ -73,7 +73,7 @@ Create kubernetes service (Free cluster): https://cloud.ibm.com/kubernetes/catal
 
 Create Watson Tone Analyzer service: https://cloud.ibm.com/catalog/services/tone-analyzer
 
-# Lab
+## Lab
 
 1) Go to: https://cloud.ibm.com/kubernetes/clusters
 2) Find your cluster and click on it
@@ -81,31 +81,4 @@ Create Watson Tone Analyzer service: https://cloud.ibm.com/catalog/services/tone
 4) Select "Web terminal" and choose to install it
 5) Wait a minute and do steps 3 and 4 again
 6) Now you are ready to work with kubernetes using online terminal and kubectl
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
+7) Go to this link to start the hands-on workshop: https://github.com/IBM/kube101/tree/master/workshop/Lab1
